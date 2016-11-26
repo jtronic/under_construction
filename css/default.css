@@ -13,16 +13,16 @@
 }
 
 .col-responsive {
-    margin-top: 200px;
+    margin-top: 180px;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 10px;
     text-shadow: 2px 2px 2px #333;
-    color: yellow;
+    color: lime;
 }
 
 @media screen and (max-width: 1200px) {
