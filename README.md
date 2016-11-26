@@ -1,2 +1,2 @@
 # under_construction
-Under construction beaty page
+Under construction beauty page
