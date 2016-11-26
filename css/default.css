@@ -1,14 +1,76 @@
-﻿.underConstruction {
-    color: #818181;
-    background-color: #fafafa;
-    padding-left: 1px;
-    padding-right: 1px;
+﻿body {
+    background-color: lightyellow;
 }
 
-@media screen and (max-width: 1200px) {}
+.underConstruction {
+    color: #818181;
+    background-color: #fafafa;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 1200px;
+    height: 600px;
+    background-size: cover;
+}
 
-@media screen and (max-width: 768px) {}
+.col-responsive {
+    margin-top: 200px;
+}
 
-@media screen and (max-width: 600px) {}
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px #333;
+    color: yellow;
+}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 1200px) {
+    .underConstruction {
+        margin-left: 25px !important;
+        width: 1100px !important;
+        height: 550px !important;
+    }
+    .col-responsive {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .underConstruction {
+        margin-left: 25px !important;
+        width: 700px !important;
+        height: 350px !important;
+    }
+    .col-responsive {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .underConstruction {
+        margin-left: 25px !important;
+        width: 500px !important;
+        height: 250px !important;
+    }
+    .col-responsive {
+        margin-top: 80px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .underConstruction {
+        margin-left: 25px !important;
+        width: 400px !important;
+        height: 200px !important;
+    }
+    .col-responsive {
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
