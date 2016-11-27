@@ -9,4 +9,9 @@
 
     }, 500);
 
+    /*  $(window).resize(function() {
+
+          $('.item').css("height", Number(window.innerHeight - 1).toString() + "px !important");
+      });*/
+
 });
