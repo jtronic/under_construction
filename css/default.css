@@ -1,7 +1,7 @@
 ﻿html,
 body {
     /*css for full size background image*/
-    background: url(file:///img/5.jpg) no-repeat center center fixed;
+    background: url("../img/5.jpg") no-repeat center center fixed;
     /*background: url(file://D:/jtronic/under_construction/img/5.jpg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -77,6 +77,15 @@ a {
     text-align: center;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
     font-weight: 600;
+}
+
+.thumbnail .caption:hover {
+    padding: 9px;
+}
+
+.img-thumbnail:hover {
+    border: 0px solid #aaa !important;
+    padding: 1px 1px 1px 1px;
 }
 
 .img-thumbnail {
