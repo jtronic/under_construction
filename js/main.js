@@ -1,6 +1,6 @@
 ﻿$(document).ready(function() {
 
-    var timer = setInterval(function() {
+    setInterval(function() {
 
         var date = new Date();
 
@@ -9,9 +9,40 @@
 
     }, 500);
 
-    /*  $(window).resize(function() {
 
-          $('.item').css("height", Number(window.innerHeight - 1).toString() + "px !important");
-      });*/
+    var timer = undefined;
+
+    $('#date').hover(function() {
+
+            _$ = $('#header');
+
+            _$.tooltip({
+                title: '<h1><span class="glyphicon  glyphicon-calendar"></span> ' + this.outerHTML + '</h1>',
+                html: true,
+                placement: 'top',
+            });
+            _$.tooltip('show');
+
+        },
+        function() {
+            $('#header').tooltip('destroy');
+
+        });
+
+    $('#time').hover(function() {
+
+            _$ = $('#header');
+
+            _$.tooltip({
+                title: '<h1><span class="glyphicon  glyphicon-time"><br/></span> ' + this.outerHTML + '</h1>',
+                html: true,
+                placement: 'top',
+            });
+            _$.tooltip('show');
+
+        },
+        function() {
+            $('#header').tooltip('destroy');
+        });
 
 });
